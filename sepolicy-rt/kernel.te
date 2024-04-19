@@ -1,3 +1,6 @@
 #============= kernel ==============
 allow kernel self:system module_request;
 
+allow kernel device:blk_file create_file_perms;
+allow kernel device:dir rw_dir_perms;
+allow kernel self:capability mknod;
