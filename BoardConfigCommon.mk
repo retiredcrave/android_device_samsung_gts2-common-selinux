@@ -146,8 +146,8 @@ TARGET_USES_GRALLOC1_ADAPTER := true
 TARGET_USES_ION := true
 
 # Hidl
-DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
-PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+#DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+#PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 			   
 # Lineage hardware
 ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
@@ -160,6 +160,8 @@ BOARD_HDMI_INCAPABLE := true
 
 # Hidl
 DEVICE_MANIFEST_FILE := device/samsung/gts2-common/manifest.xml
+DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
 # HWCServices
 #BOARD_USES_HWC_SERVICES := true
