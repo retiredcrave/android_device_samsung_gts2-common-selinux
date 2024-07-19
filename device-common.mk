@@ -55,10 +55,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.ebpf.supported=false
 
 # Camera
+#PRODUCT_PACKAGES += \
+#    android.hardware.camera.provider@2.4-impl-legacy \
+#    camera.device@1.0-impl-legacy \
+#    libexynoscamera_shim \
+#    libstagefright_shim
+
+# CANNOT LINK EXECUTABLE "/system/bin/mediaserver": library "/system/lib/libstagefright_shim.so" not found: needed by main executable
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl-legacy \
-    camera.device@1.0-impl-legacy \
-    libexynoscamera_shim \
     libstagefright_shim
 
 # Charger
