@@ -71,7 +71,11 @@ PRODUCT_PACKAGES += \
 
 # Configstore
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
     
 # Display
 #PRODUCT_PACKAGES += \
