@@ -13,7 +13,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.service.exynos5 \
+    android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     android.hardware.audio@7.0-impl \
@@ -21,8 +21,10 @@ PRODUCT_PACKAGES += \
     audio.primary.universal5433 \
     audio.r_submix.default \
     audio.usb.default \
+    libtinycompress \
+    libcsc
 #   libseirenhw \
-    libtinycompress
+
 	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
