@@ -16,4 +16,7 @@ cc_binary {
         "libutils",
         "vendor.lineage.livedisplay@2.0",
     ],
+    include_dirs: [
+        "frameworks/native/include",
+    ],
 }
