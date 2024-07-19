@@ -3,8 +3,11 @@ LOCAL_PATH := device/samsung/gts2-common
 PRODUCT_CHARACTERISTICS := tablet
 
 # API
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vndk.version=current
+#error: found duplicate sysprop assignments:
+#ro.vndk.version=current
+#ro.vndk.version=34
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.vndk.version=current
 
 # APN Definitions - override incomplete/broken lineageos version with Samsung version
 PRODUCT_COPY_FILES += \
