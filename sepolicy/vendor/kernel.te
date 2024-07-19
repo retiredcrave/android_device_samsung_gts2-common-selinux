@@ -1,3 +1,4 @@
 #============= kernel ==============
+allow kernel device:blk_file { create getattr setattr unlink };
+allow kernel device:dir { add_name remove_name write };
 allow kernel self:system module_request;
-

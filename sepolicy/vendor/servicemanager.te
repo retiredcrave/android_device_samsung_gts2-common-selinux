@@ -1,8 +1,11 @@
 #============= servicemanager ==============
 allow servicemanager gpsd:dir search;
-allow servicemanager gpsd:file { open read };
+allow servicemanager gpsd:file r_file_perms;
 allow servicemanager gpsd:process getattr;
+allow servicemanager init:binder transfer;
 allow servicemanager init:dir search;
-allow servicemanager init:file { open read };
+allow servicemanager init:file r_file_perms;
 allow servicemanager init:process getattr;
+allow servicemanager vendor_file:file r_file_perms;
+
 

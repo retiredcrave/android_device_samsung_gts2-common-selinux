@@ -1,3 +1,6 @@
 #============= secure_element ==============
-allow secure_element sysfs:file { getattr open read };
+allow secure_element sysfs:file r_file_perms;
 
+#============= secure_element ==============
+allow secure_element system_data_file:dir w_dir_perms;
+allow secure_element system_data_file:file create_file_perms;

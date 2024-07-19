@@ -1,0 +1,3 @@
+#============= logpersist ==============
+allow logpersist vendor_file:file r_file_perms;
+

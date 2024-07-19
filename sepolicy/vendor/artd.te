@@ -1,0 +1,2 @@
+#============= artd ==============
+allow artd vendor_file:file r_file_perms;

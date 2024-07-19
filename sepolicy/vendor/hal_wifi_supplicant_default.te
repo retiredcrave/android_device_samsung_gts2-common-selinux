@@ -1,2 +1,3 @@
 #============= hal_wifi_supplicant_default ==============
+allow hal_wifi_supplicant_default kernel:system module_request;
 

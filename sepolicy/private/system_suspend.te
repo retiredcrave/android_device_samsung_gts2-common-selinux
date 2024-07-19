@@ -1,2 +1,4 @@
 #============= system_suspend ==============
+allow system_suspend init:binder transfer;
 allow system_suspend sysfs:file r_file_perms;
+allow system_suspend vendor_file:file r_file_perms;

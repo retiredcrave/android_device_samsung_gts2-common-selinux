@@ -1,7 +1,5 @@
 #============= zygote ==============
-allow zygote adb_data_file:dir r_dir_perms;
-allow zygote device:dir create_dir_perms;
-allow zygote device:file create_file_perms;
-allow zygote exported_camera_prop:file { getattr open read };
+allow zygote exported_camera_prop:file r_file_perms;
 allow zygote sysfs:dir { open read };
-allow zygote sysfs:file { getattr open read };
+allow zygote sysfs:file r_file_perms;
+allow zygote vendor_file:file r_file_perms;

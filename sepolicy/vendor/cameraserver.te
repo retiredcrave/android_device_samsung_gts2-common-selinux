@@ -1,5 +1,10 @@
 #============= cameraserver ==============
+allow cameraserver camera_device:chr_file rw_file_perms;
 allow cameraserver device:chr_file rw_file_perms;
+allow cameraserver gpsd_exec:file r_file_perms;
 allow cameraserver media_rw_data_file:dir search;
 allow cameraserver sysfs:file r_file_perms;
-allow cameraserver unlabeled:dir search;
+allow cameraserver vendor_file:file rx_file_perms;
+allow cameraserver vendor_firmware_file:dir search;
+allow cameraserver vendor_firmware_file:file r_file_perms;
+allow cameraserver video_device:chr_file rw_file_perms;

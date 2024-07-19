@@ -1,0 +1,2 @@
+#============= init ==============
+allow init system_suspend:binder call;

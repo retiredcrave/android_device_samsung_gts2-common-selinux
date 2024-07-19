@@ -1,4 +1,6 @@
 #============= toolbox ==============
+allow toolbox cache_file:file r_file_perms;
+allow toolbox init:fifo_file r_file_perms;
 allow toolbox platform_app:file getattr;
 allow toolbox proc:file getattr;
 allow toolbox proc_diskstats:file getattr;
@@ -10,4 +12,4 @@ allow toolbox ram_device:blk_file rw_file_perms;
 allow toolbox shell:dir r_dir_perms;
 allow toolbox shell:file r_file_perms;
 allow toolbox system_app:dir getattr;
-allow toolbox unlabeled:dir { getattr read };
+allow toolbox vendor_file:file r_file_perms;

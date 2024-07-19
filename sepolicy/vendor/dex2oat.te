@@ -1,4 +1,0 @@
-#============= dex2oat ==============
-# device/samsung/gts2-common/sepolicy-rt/dex2oat.te:3:ERROR 'unknown type dex2oat' at token ';'
-# allow dex2oat sysfs:dir { open read };
-

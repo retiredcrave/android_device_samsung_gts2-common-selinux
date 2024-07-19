@@ -1,0 +1,4 @@
+#============= misctrl ==============
+allow misctrl block_device:blk_file { getattr open read write };
+allow misctrl proc:file r_file_perms;
+allow misctrl vendor_file:file r_file_perms;
