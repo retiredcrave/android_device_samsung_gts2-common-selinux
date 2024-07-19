@@ -1,3 +1,4 @@
+# build/make/core/base_rules.mk:342: error: device/samsung/gts2-common/shims/libui: MODULE.TARGET.SHARED_LIBRARIES.libui_shim already defined by hardware/lineage/compat.
 #
 # Copyright (C) 2018 The LineageOS Project
 #
