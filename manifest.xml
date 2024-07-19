@@ -48,6 +48,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+<!--
     <hal format="hidl">
         <name>android.hardware.camera.device</name>
         <transport arch="32">passthrough</transport>
@@ -56,7 +57,7 @@
             <name>ICameraDevice</name>
             <instance>legacy/0</instance>
         </interface>
-    </hal> 
+    </hal>
     <hal format="hidl">
         <name>android.hardware.camera.provider</name>
         <transport arch="32">passthrough</transport>
@@ -66,6 +67,7 @@
             <instance>legacy/0</instance>
         </interface>
     </hal>
+-->
     <hal format="hidl">
         <name>android.hardware.configstore</name>
         <transport>hwbinder</transport>
