@@ -169,6 +169,9 @@ on init
     # disable klogd to avoid interrupting 'cat /proc/kmsg' by reading /proc/kmsg simultaneously
     setprop logd.kernel false
 
+    # Charger
+    chown system system /sys/class/power_supply/battery/batt_slate_mode
+
 on post-fs
     # mobicore
     setprop sys.mobicoredaemon.enable stopped

@@ -142,6 +142,10 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter \
     libion
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
