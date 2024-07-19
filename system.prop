@@ -51,11 +51,12 @@ lockscreen.rot_override=true
 # Media
 #media.stagefright.legacyencoder=1
 #media.stagefright.less-secure=1
-debug.stagefright.ccodec=0
 drm.service.enabled=true
 debug.sf.disable_backpressure=1
-debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
+# disable for QPR3 otherwise there's no sound
+# debug.stagefright.ccodec=0
+# debug.stagefright.omx_default_rank.sw-audio=1
+# debug.stagefright.omx_default_rank=0
 
 # Network
 # Define default initial receive window size in segments.
