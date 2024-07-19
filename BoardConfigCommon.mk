@@ -243,7 +243,7 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libbauthserver.so|libbauthtzcommon_shim.so \
     /system/vendor/lib/libexynoscamera.so|libexynoscamera_shim.so \
     /system/vendor/bin/gpsd|libshim_gpsd.so \
-    /system/bin/mediaserver|/vendor/lib/libstagefright_shim.so
+    /system/bin/mediaserver|/system/lib/libstagefright_shim.so
 
 # Legacy BLOB Support
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
