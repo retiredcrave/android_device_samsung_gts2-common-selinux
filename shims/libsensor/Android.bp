@@ -1,3 +1,5 @@
+// https://review.lineageos.org/c/LineageOS/android_hardware_lineage_compat/+/361913
+
 cc_library_shared {
     name: "libshim_gpsd",
     proprietary: true,
@@ -8,7 +10,7 @@ cc_library_shared {
 
     shared_libs: [
 	    "liblog",
-        "libsensor",
+        "libsensor_vendor",
         "libutils",
     ],
 }

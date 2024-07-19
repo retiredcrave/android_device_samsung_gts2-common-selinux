@@ -39,4 +39,7 @@ namespace android {
     extern "C" void _ZN7android13SensorManagerC1Ev();
     extern "C" void _ZN7android13SensorManagerC1Ev(){}
 
+    extern "C" void _ZNK7android16SensorEventQueue5getFdEv();
+    extern "C" void _ZNK7android16SensorEventQueue5getFdEv(){};
+
 }
