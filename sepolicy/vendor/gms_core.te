@@ -1,0 +1,2 @@
+#============= gmscore_app ==============
+allow gmscore_app aac_drc_prop:file r_file_perms;

@@ -1,0 +1,2 @@
+#============= untrusted_app ==============
+allow untrusted_app self:netlink_route_socket bind;
