@@ -64,6 +64,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #    libexynoscamera_shim \
 #    libstagefright_shim
 
+PRODUCT_NO_CAMERA := true
+
 # CANNOT LINK EXECUTABLE "/system/bin/mediaserver": library "/system/lib/libstagefright_shim.so" not found: needed by main executable
 PRODUCT_PACKAGES += \
     libstagefright_shim
