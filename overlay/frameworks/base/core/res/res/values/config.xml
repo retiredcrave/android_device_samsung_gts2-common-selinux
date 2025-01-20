@@ -303,6 +303,7 @@
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+    <!--
         <item>"/system/framework/arm/boot-framework.oat"</item>
         <item>"/system/framework/framework.jar"</item>
         <item>"/system/framework/oat/arm/services.odex"</item>
@@ -315,13 +316,14 @@
         <item>"/product/priv-app/SystemUI/SystemUI.apk"</item>
         <item>"/product/priv-app/SystemUI/oat/arm/SystemUI.odex"</item>
         <item>"/system/lib/libsurfaceflinger.so"</item>
+    -->
     </string-array>
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
 
     <!-- Should the pinner service pin the Camera application? -->
-    <bool name="config_pinnerCameraApp">true</bool>		
+    <!-- <bool name="config_pinnerCameraApp">true</bool> -->
 	
     <!-- The device supports freeform window management -->
     <bool name="config_freeformWindowManagement">true</bool>
